@@ -37,4 +37,4 @@ A ROS1 (Noetic) package for ground segmentation using the Cloth Simulation Filte
 MIT
 
 ## Third-party Notice
-This project directly includes source code from the CSF library (https://github.com/jianboqi/CSF)(Apache-2.0 license). Please refer to the CSF repository for license details.
+This project directly includes source code from the CSF library (https://github.com/jianboqi/CSF), the library uses Apache-2.0 license. Please refer to the CSF repository for license details.
