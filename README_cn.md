@@ -36,4 +36,4 @@
 MIT
 
 ## 第三方库说明
-本工程直接源码引用了CSF库（https://github.com/jianboqi/CSF，Apache-2.0 license），请参见CSF库主页获取许可协议详情。
+本工程直接源码引用了CSF库（https://github.com/jianboqi/CSF）（Apache-2.0 license），请参见CSF库主页获取许可协议详情。
