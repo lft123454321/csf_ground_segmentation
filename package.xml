@@ -1,0 +1,13 @@
+<package format="2">
+  <name>csf_ground_segmentation</name>
+  <version>0.0.1</version>
+  <description>Ground segmentation using the Cloth Simulation Filter (CSF) method.</description>
+  <maintainer email="your@email.com">Your Name</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>pcl_ros</depend>
+  <depend>pcl_conversions</depend>
+</package>

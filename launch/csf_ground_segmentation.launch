@@ -1,0 +1,24 @@
+<launch>
+    <node pkg="csf_ground_segmentation" type="csf_ground_segmentation_node" name="csf_ground_segmentation_node" output="screen">
+        <param name="leaf_size" value="0.01" />
+        <param name="bSloopSmooth" value="true" />
+        <param name="class_threshold" value="0.3" />
+        <param name="cloth_resolution" value="0.75" />
+        <param name="interations" value="500" />
+        <param name="rigidness" value="3" />
+        <param name="time_step" value="0.65" />
+        <param name="use_voxel_grid" value="true" />
+        <param name="use_outlier_removal" value="true" />
+        <param name="grid_size" value="0.5" />
+        <param name="min_x" value="0.0" />
+        <param name="max_x" value="6.0" />
+        <param name="min_y" value="-5.0" />
+        <param name="max_y" value="5.0" />
+        <param name="min_z" value="-1.0" />
+        <param name="max_z" value="2.0" />
+        <param name="min_points_per_grid" value="5" />
+        <param name="stddev_thresh" value="2.0" />
+        <param name="hist_bin_size" value="0.1" />
+        <param name="hist_ratio_thresh" value="0.2" />
+    </node>
+</launch>
